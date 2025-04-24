@@ -9,10 +9,6 @@ versions:
   v0.5.0:
     - v0.5.0
 registries:
-  docker.io:
-    user_variable: DOCKER_USERNAME
-    password_variable: DOCKER_PASSWORD
-    organisation_variable: DOCKER_ORG
   quay.io:
     user_variable: QUAY_USERNAME
     password_variable: QUAY_PASSWORD
