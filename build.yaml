@@ -1,4 +1,4 @@
-revision: 20250119
+revision: 20250424
 versions:
   v0.5.2:
     - latest
@@ -12,6 +12,8 @@ registries:
   docker.io:
     user_variable: DOCKER_USERNAME
     password_variable: DOCKER_PASSWORD
+    organisation_variable: DOCKER_ORG
   quay.io:
     user_variable: QUAY_USERNAME
     password_variable: QUAY_PASSWORD
+    organisation_variable: QUAY_ORG
